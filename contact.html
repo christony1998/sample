@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+    <title>CAPSLock | Services</title>
+  </head>
+  <body>
+    <header>
+      <nav class="bar">
+        <h2>CAPS*<span class="act">Lock</span></h2>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="service.html">SERVICES</a></li>
+          <li><a href="#" class="act">CONTACT US</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="comment">
+      <h2>Send your Concern</h2><br />
+       <form action="MAILTO:praningaming@gmail.com" method="post" enctype="text/plain" name="myForm" onsubmit="return(validate());">
+          Name:<br>
+        <input type="name" name="name" placeholder="Full Name"><br>
+          E-mail:<br>
+        <input type="mail" name="mail" placeholder="Enter valid email"><br>
+          Comment:<br>
+        <textarea type="text" name="comment" size="50" rows="10" cols="20" class="cmt" placeholder="Enter text here..."></textarea><br><br>
+        <input type="submit" value="Send" class="btn">
+        <input type="reset" value="Reset" class="btn">
+       </form>
+    </div>
+    <footer class="footer">
+      <p>CAPS*Löçk, Copyright &copy; 2021</p>
+    </footer>
+  </body>
+  <script src="formval.js" type="text/javascript" charset="utf-8"></script>
+  <!-- I comment out this script as it overriding the other script..
+  <script src="mailval.js" type="text/javascript" charset="utf-8"></script>
+  -->
+</html>

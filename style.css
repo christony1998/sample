@@ -1,0 +1,192 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  max-width: 1280px;
+}
+
+.bar{
+  height: 150px;
+  width: 100%;
+  background-color: #555;
+  border-bottom: 2px solid #ff4600;
+}
+
+.bar h2{
+  text-align: center;
+  padding-top: 10px;
+  color: #fff;
+  -webkit-text-stroke: 0.5px #ff4600;
+  letter-spacing: 2px;
+  font-family: Times New Roman;
+  border-bottom: 1px solid #777;
+}
+
+.bar ul{
+  padding-top: 10px;
+  text-decoration-style: none;
+  text-align: center;
+}
+
+.bar ul li{
+  letter-spacing: 5px;
+}
+
+.bar ul li a{
+  text-decoration: none;
+  color: #eee;
+  font-weight: bold;
+  transition: 0.6s ease;
+}
+
+.bar ul .act{
+  border-bottom: 1px solid #777;
+}
+
+
+.act, .bar ul .act{
+  color: #ff4600;
+}
+
+
+.bar ul li a:hover{
+  color: #ff4600;
+}
+
+.main img{
+ width: 100%;
+ margin-top: 5px;
+ border-top: 2px solid #555;
+ border-bottom: 2px solid #ff4600;
+}
+
+.img_info{
+  background-color: #888;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  border-top: 2px solid #555;
+  border-bottom: 2px solid #ff4600;
+  margin-bottom: 2px;
+  }
+
+.img_info p, .img_info h2{
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.img_info h2{
+  font-size: 42px;
+  padding-top: 20px;
+  font-family: 'Brush Script MT', cursive;
+  color: #fff;
+  font-weight: bold;
+  -webkit-text-stroke: 0.5px #ff4600;
+}
+
+.img_info p{
+  padding-top: 20px;
+  word-spacing: 3px;
+}
+
+.img_info p a{
+  color: #ff4600;
+  font-weight: bold;
+  text-decoration-line: none;
+}
+.footer{
+  padding-top:15px;
+  padding-bottom: 15px;
+  color:#ffffff;
+  background-color:#ff4600;
+  text-align: center;
+  border-top: 2px solid #555;
+  width: 100%;
+}
+
+.comment{
+  margin: 2px auto;
+  width: 300px;
+  height: 525px;
+  text-align: center;
+  background-color: #ff4600;
+  padding-top: 20px;
+  border: 2px solid #555;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.comment h2{
+  word-spacing: 5px;
+}
+  
+.comment form input, .comment form textarea{
+  background-color: #ccc;
+  font-size: 18px;
+  margin-bottom: 10px;
+  border-top: none;
+  border-right: none;
+  border-left: 2px solid #555;
+  border-bottom: 2px solid #555;
+  width: 75%;
+  font-family: Georgia;
+  padding: 2px;
+  color: #333;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.comment form{
+  margin: auto;
+  color: #fff;
+  font-weight: bold;
+}
+
+.comment form .cmt{
+  padding-bottom: 50px;
+}
+
+.comment form .btn{
+  background-color: #555;
+  color: #ff4600;
+  font-family: Times New Roman;
+  border-left: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  transition: 0.3s ease;
+  width: 35%;
+}
+ 
+ .comment form .btn:hover{
+   color: #fff;
+   background-color: #ff4600;
+   border: 2px solid #555;
+ }
+ 
+@media screen and (min-width: 720px) {
+  .bar{
+  height: 50px;
+  width: 100%;
+  }
+  .bar h2{
+  float: left;
+  padding-top: 10px;
+  margin-left: 15px;
+}
+  .bar ul{
+    text-align: left;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+    float: right;
+  }
+  .bar ul li{
+    margin: 10px 5px;
+    border-right: 1px solid #777;
+    padding-right: 5px;
+    align-content: left;
+  }
